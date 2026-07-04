@@ -204,6 +204,7 @@ streamlit run app.py
 
 5. Open the local URL displayed in your terminal (typically `http://localhost:8501`) to interact with the recommendation assistant.
 
+> **Note:** The repository includes a pre-generated `recommendation_bundle.csv` file so the Streamlit application can be launched immediately. To regenerate the recommendation dataset from the raw transaction data, run the Jupyter notebook (`Customer_Growth_Recommendation_Engine.ipynb`) before launching the application.
 ---
 
 ## Future Enhancements
