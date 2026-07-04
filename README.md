@@ -1,6 +1,7 @@
 # Customer Growth Intelligence & Recommendation Engine
 
 ![Hero Banner](hero_banner.png)
+> Interactive customer analytics application powered by Python and Streamlit that transforms transaction data into revenue opportunities and next-best product recommendations.
 
 ## Project Overview
 
@@ -165,6 +166,7 @@ The recommendation engine currently supports:
 ## Technologies
 
 - Python
+- Streamlit
 - Pandas
 - NumPy
 - Matplotlib
