@@ -150,20 +150,16 @@ Next Best Product Recommendation Engine
 ## Visualizations
 
 ### Pareto Analysis
-![Pareto Analysis](images/pareto_analysis.png)
+![Pareto Analysis](./images/pareto_analysis.png)
 
 ### Revenue by Customer Segment
-![Revenue by Customer Segment](images/revenue_by_customer_segment.png)
+![Revenue by Customer Segment](./images/revenue_by_customer_segment.png)
 
 ### Revenue Share by Customer Segment
-![Revenue Share by Customer Segment](images/revenue_share_by_segment.png)
+![Revenue Share by Customer Segment](./images/revenue_share_by_segment.png)
 
 ### Top Product Recommendation Opportunities
-![Top Product Recommendation Opportunities](images/top_product_recommendation_opportunities.png)
-
-
-
-\---
+![Top Product Recommendation Opportunities](./images/top_product_recommendation_opportunities.png)
 
 
 
