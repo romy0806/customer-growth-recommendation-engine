@@ -1,5 +1,7 @@
 # Customer Growth Intelligence & Recommendation Engine
 
+![Hero Banner](hero_banner.png)
+
 An end-to-end customer analytics and AI-powered recommendation engine built using Python to identify high-value customers, quantify revenue growth opportunities, and generate next-best product recommendations using customer segmentation, product affinity, and market basket analysis.
 
 ---
