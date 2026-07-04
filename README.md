@@ -2,7 +2,11 @@
 
 ![Hero Banner](hero_banner.png)
 
-An end-to-end customer analytics and AI-powered recommendation engine built using Python to identify high-value customers, quantify revenue growth opportunities, and generate next-best product recommendations using customer segmentation, product affinity, and market basket analysis.
+## Project Overview
+
+An end-to-end customer growth analytics platform built using **Python, Market Basket Analysis, RFM Segmentation, and Streamlit** to identify high-value customers, quantify revenue growth opportunities, and deliver interactive next-best product recommendations through a business-friendly application.
+
+The project demonstrates how transaction data can be transformed into actionable business insights that support customer retention, cross-selling, merchandising decisions, and revenue growth.
 
 ---
 
@@ -27,11 +31,18 @@ https://archive.ics.uci.edu/ml/datasets/online+retail
 | Top Product Bundle Revenue Opportunity | **~£113K** |
 
 ---
+## Key Features
+- Interactive Streamlit recommendation assistant
+- RFM customer segmentation
+- Pareto (80/20) revenue analysis
+- Market Basket Analysis using association rules
+- Next-best product recommendation engine
+- Revenue opportunity estimation
+- Business-friendly recommendation app interface
+---
 
 ## Business Problem
-
 Retailers generate millions of transactions but often struggle to answer questions such as:
-
 - Which customers generate the highest business value?
 - Where are the largest revenue growth opportunities?
 - Which products should be recommended together?
@@ -108,6 +119,49 @@ Business Recommendations & Revenue Impact
 
 ---
 
+# Interactive Recommendation Assistant
+
+To make the recommendation engine accessible to business users, I developed an interactive **Streamlit application** that allows users to search products, generate next-best product recommendations, estimate incremental revenue opportunity, and translate analytical insights into business actions.
+
+---
+
+## Product Search
+
+Business users can quickly search and select products from the catalog using an interactive searchable interface.
+
+![Product Search](./images/app_product_search_v2.jpg)
+
+---
+
+## Recommendation Example – London Collection
+
+For a selected product, the assistant generates complementary product recommendations, summarizes co-purchase behavior, and estimates the associated revenue opportunity.
+
+![London Recommendation](./images/app_london_recommendation_v2.jpg)
+
+---
+
+## Recommendation Example – Dolly Girl Collection
+
+Recommendations automatically update based on the selected product, demonstrating how the recommendation engine adapts across different product categories and purchasing behaviors.
+
+![Dolly Girl Recommendation](./images/app_dollygirl_recommendation_v2.jpg)
+
+---
+
+## Current Business Applications
+
+The recommendation engine currently supports:
+
+- Website product recommendations
+- Checkout cross-sell suggestions
+- Product bundle recommendations
+- Revenue opportunity estimation
+- Customer cross-sell analysis
+
+
+---
+
 ## Technologies
 
 - Python
@@ -122,11 +176,18 @@ Business Recommendations & Revenue Impact
 
 ## Future Enhancements
 
-- LLM-powered recommendation assistant
-- Real-time recommendation API
-- Hybrid recommendation engine combining collaborative filtering and market basket analysis
-- Interactive Streamlit dashboard
-- Personalized customer recommendation scoring
+The next phase of this project focuses on transforming the recommendation engine into an AI-powered business assistant capable of supporting real-time decision making.
+
+Planned enhancements include:
+
+- AI-powered Recommendation Copilot using Large Language Models (LLMs)
+- Natural language business queries (e.g., "What products should we recommend to customers purchasing coffee mugs?")
+- AI-generated marketing campaign recommendations
+- Personalized promotional messaging
+- Customer-specific recommendation generation
+- Automated coupon and offer suggestions
+- Cloud deployment using Streamlit Community Cloud
+- REST APIs for e-commerce and CRM integration
 
 ---
 
