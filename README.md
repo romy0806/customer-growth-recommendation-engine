@@ -176,6 +176,36 @@ The recommendation engine currently supports:
 
 ---
 
+## Run the Application
+
+1. Clone this repository.
+
+```bash
+git clone https://github.com/romy0806/customer-growth-recommendation-engine.git
+```
+
+2. Navigate to the project directory.
+
+```bash
+cd customer-growth-recommendation-engine
+```
+
+3. Install the required packages.
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Launch the interactive Streamlit application.
+
+```bash
+streamlit run app.py
+```
+
+5. Open the local URL displayed in your terminal (typically `http://localhost:8501`) to interact with the recommendation assistant.
+
+---
+
 ## Future Enhancements
 
 The next phase of this project focuses on transforming the recommendation engine into an AI-powered business assistant capable of supporting real-time decision making.
