@@ -74,39 +74,32 @@ This project addresses these questions through a complete analytics workflow.
 
 
 
-\## Analytics Workflow
+## Analytics Workflow
 
-
-
-```
-
+```text
 Transaction Data
-
-&#x20;     ↓
-
-Data Cleaning \& Feature Engineering
-
-&#x20;     ↓
-
+        │
+        ▼
+Data Cleaning & Feature Engineering
+        │
+        ▼
 Pareto Analysis (80/20 Revenue Rule)
-
-&#x20;     ↓
-
+        │
+        ▼
 RFM Customer Segmentation
-
-&#x20;     ↓
-
+        │
+        ▼
 Revenue Growth Opportunity Modeling
-
-&#x20;     ↓
-
-Product Affinity Analysis
-
-&#x20;     ↓
-
-Market Basket Analysis
-
-&#x20;     ↓
+        │
+        ▼
+Market Basket Analysis (Association Rules)
+        │
+        ▼
+AI Recommendation Engine
+        │
+        ▼
+Business Recommendations & Revenue Impact
+```
 
 Next Best Product Recommendation Engine
 
@@ -154,39 +147,19 @@ Next Best Product Recommendation Engine
 
 
 
-\## Visualizations
+## Visualizations
 
+### Pareto Analysis
+![Pareto Analysis](images/pareto_analysis.png)
 
+### Revenue by Customer Segment
+![Revenue by Customer Segment](images/revenue_by_customer_segment.png)
 
-\### Pareto Revenue Analysis
+### Revenue Share by Customer Segment
+![Revenue Share by Customer Segment](images/revenue_share_by_segment.png)
 
-
-
-!\[Pareto Analysis](images/pareto\_analysis.png)
-
-
-
-\### Revenue by Customer Segment
-
-
-
-!\[Revenue by Segment](images/revenue\_by\_customer\_segment.png)
-
-
-
-\### Revenue Share by Customer Segment
-
-
-
-!\[Revenue Share](images/revenue\_share\_by\_segment.png)
-
-
-
-\### Top Product Recommendation Opportunities
-
-
-
-!\[Recommendation Opportunities](images/top\_product\_recommendation\_opportunities.png)
+### Top Product Recommendation Opportunities
+![Top Product Recommendation Opportunities](images/top_product_recommendation_opportunities.png)
 
 
 
