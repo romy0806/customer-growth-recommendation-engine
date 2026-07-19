@@ -122,7 +122,7 @@ Business Recommendations & Revenue Impact
 
 # Interactive Recommendation Assistant
 
-To make the recommendation engine accessible to business users, I developed an interactive **Streamlit application** that allows users to search products, generate next-best product recommendations, estimate incremental revenue opportunity, and translate analytical insights into business actions.
+Built a **Streamlit app** that makes the recommendation engine easy for business users to explore, test recommendations, and estimate potential revenue gains.
 
 ---
 
