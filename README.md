@@ -231,7 +231,7 @@ Planned enhancements include:
 Senior Analytics Leader | Machine Learning | AI | Customer Analytics | Product Strategy
 
 **LinkedIn:**  
-https://www.linkedin.com/in/paromitadas
+https://www.linkedin.com/in/paromita-das
 
 **GitHub:**  
 https://github.com/romy0806
